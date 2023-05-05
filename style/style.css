@@ -29,6 +29,7 @@ header{
 }
 
 a{
+    display: inline-block;
     margin: 20px;
     color: white;
     text-decoration: none;
@@ -43,7 +44,7 @@ a:hover{
 #botton{
     border: 3px solid var(--cor01);
     padding: 10px;
-    border-radius: 15px
+    border-radius: 15px;
 }
 
 #botton:hover{
