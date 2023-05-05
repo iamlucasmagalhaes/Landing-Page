@@ -4,6 +4,7 @@
 
 :root{
     --font-padrao: 'Poppins', Arial, sans-serif;
+    --cor01: #840ec9;
 }
 
 body{
@@ -29,6 +30,26 @@ header{
 
 a{
     margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--cor01);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+#botton{
+    border: 3px solid var(--cor01);
+    padding: 10px;
+    border-radius: 15px
+}
+
+#botton:hover{
+    background-color: var(--cor01);
+    color: white;
+    transition: 0.3s;
 }
 
 h1{
@@ -40,4 +61,50 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-weight: medium;
+}
+
+span{
+    color: var(--cor01);
+}
+
+p{
+    text-align: justify;
+    font-weight: normal;
+}
+
+img{
+    width: 600px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.submit{
+    height: 50px;
+    width: 50%;
+    background-color: var(--cor01);
+    color: white;
+    font-weight: bolder;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
 }
