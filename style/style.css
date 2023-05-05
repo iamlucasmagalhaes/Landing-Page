@@ -26,3 +26,18 @@ header{
     flex-direction: column;
     line-height: 10px;
 }
+
+a{
+    margin: 20px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+/*Colocar a imagem ao lado do texto*/
+main{ 
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
