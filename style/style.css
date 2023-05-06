@@ -65,9 +65,10 @@ main{
 }
 
 h2{
-    font-size: 56px;
+    font-size: 2.69vw;
     line-height: 10px;
     font-weight: medium;
+    width: 100%;
 }
 
 span{
